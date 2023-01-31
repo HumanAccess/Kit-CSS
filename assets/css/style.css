@@ -318,7 +318,7 @@ a > :where(code) {
 }
 
 :where([role=button], .btn):is(:hover, :focus, :active) {
-  color: inherit;
+  color: var(--color);
 }
 
 :where(textarea) {
