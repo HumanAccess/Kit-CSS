@@ -66,7 +66,9 @@ $icons: (
 }
 
 //  ------------------------------------------------------------
-//  Utility mixin
+//  Sass extend for utilities can be used inline theme styles
+//  if Kit-CSS is being recompiled with them, as a solution this
+//  will suit some and leave a bad taste in others mouths :-) 
 //  ------------------------------------------------------------
 
 %svg-mask {
@@ -120,8 +122,8 @@ $icons: (
 }
 
 //  ------------------------------------------------------------
-//  Color schemes toggle
-//  Buttons may require further styling to suit usage.
+//  Color schemes toggle with basic button adjustments, buttons 
+//  may require further styling to suit specific usage.
 //  ------------------------------------------------------------
 
 :where([aria-label="Dark mode"]):before {
